@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImformationActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="掃描使用者ID"
+        android:textSize="120px"
+        android:textColor="#fff"
+        android:background="#2f4f4f"
+        />
+    <SurfaceView
+        android:id="@+id/surfaceView2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/tv"/>
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/surfaceView2"/>
+
+    <Button
+        android:id="@+id/button123"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="商品資訊"
+        android:layout_below="@+id/textView123"/>
+
+</RelativeLayout>

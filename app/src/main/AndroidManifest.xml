@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".GlobalVariable"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ethereum app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".RefundActivity"></activity>
+        <activity android:name=".ImformationActivity" />
+        <activity
+            android:name=".AccountActivity2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".TransactionRefundActivity" />
+        <activity android:name=".RecordActivity2" />
+        <activity android:name=".custmeraccount" /> <!-- <activity android:name=".Adapter"></activity> -->
+        <activity android:name=".TransactionActivity" />
+        <activity android:name=".Transaction2Activity" />
+        <activity
+            android:name=".AccountActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".BalanceActivity" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".QRcodeActivity" />
+        <activity android:name=".RecordActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewDatabase" />
+    </application>
+
+</manifest>

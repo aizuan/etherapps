@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "59873151943",
+    "firebase_url": "https://microraiden-a7692.firebaseio.com",
+    "project_id": "microraiden-a7692",
+    "storage_bucket": "microraiden-a7692.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59873151943:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59873151943-ru0av51c2fbrqrmpssdtu2b1cbsbr4ae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "2431113204041d74c9e3a3efc27a9285bf21a5aa"
+          }
+        },
+        {
+          "client_id": "59873151943-s5nf0r6l94pe7rp0u00ah7kp81squljh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyjLkWKkMzBoK_eAouIlWPxDH3nYRcNlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59873151943-s5nf0r6l94pe7rp0u00ah7kp81squljh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
